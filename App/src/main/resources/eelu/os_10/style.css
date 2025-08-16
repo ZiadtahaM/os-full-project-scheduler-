@@ -1,0 +1,149 @@
+.root {
+    -fx-background-color: #f4f4f9; /* Light gray background */
+    /*-fx-padding: 10px;*/
+}
+
+
+#firstHBox, #secondHBox {
+    -fx-background-color: #e0e6ed; /* Light gray-blue for box backgrounds */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 10, 0, 0, 2); /* Subtle shadow for depth */
+    -fx-border-width: 2;
+    -fx-border-color: #4682B4; /* Steel blue border */
+}
+
+
+/* تصميم الجداول TableView */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #2980B9;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #ECF0F1, linear-gradient(#3498DB, #2980B9);
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #ECF0F1;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #D6EAF8;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #85C1E9 !important;
+    -fx-text-fill: #FFFFFF !important;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #2C3E50;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER;
+    -fx-border-width: 0 0 0 2px ; /* Top, Right, Bottom, Left */
+    -fx-border-color: #CCCCCC;
+
+}
+
+/* تصميم نصوص العناوين */
+.text {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-fill: #2C3E50;
+}
+
+/* تصميم الزرار Button */
+.button {
+    -fx-background-color: #3498DB;
+    -fx-text-fill: #ffffff !important;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-color: #2980B9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.5), 10, 0, 2, 2);
+}
+
+.button:hover {
+    -fx-background-color: #3c79d4;
+    -fx-effect: dropshadow(gaussian, rgba(41, 128, 185, 0.7), 10, 0, 4, 4);
+}
+
+.button:pressed {
+    -fx-background-color: #1F618D;
+    -fx-effect: none;
+}
+
+/* تصميم الـ TextField */
+.text-field {
+    -fx-border-color: #2980B9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    /*-fx-padding: 5 10 5 10;*/
+}
+
+.text-field:focused {
+    -fx-border-color: #3498DB;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.8), 10, 0, 2, 2);
+}
+
+.text-field:hover {
+    -fx-border-color: #85C1E9;
+}
+
+
+/* تصميم الـ ComboBox */
+.combo-box {
+    -fx-border-color: #3498DB;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-background-color: #3498DB;
+    /*-fx-padding: 5 10 5 10;*/
+}
+
+.combo-box:hover {
+    -fx-border-color: #2980B9;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.5), 8, 0, 2, 2);
+}
+
+.combo-box:focused {
+    -fx-border-color: #1a70bc;
+    -fx-effect: dropshadow(gaussian, rgba(26, 83, 188, 0.7), 10, 0, 2, 2);
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #ECF0F1;
+    -fx-text-fill: #2C3E50;
+    -fx-font-weight: bold;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #ffffff;
+    -fx-padding: 5;
+    -fx-background-radius: 5;
+}
+
+/* تصميم الـ Separator */
+.separator {
+    -fx-background-color: #6694ac;
+    -fx-padding: 1px;
+    /*-fx-border-radius: 10;*/
+}
+
+CheckBox {
+    -fx-font-size: 16px;
+    -fx-text-fill: #2c3e50; /* Darker gray for text */
+}
+
+CheckBox:selected {
+    -fx-text-fill: #0073E6; /* Blue for selected checkbox */
+}
+
