@@ -10,9 +10,13 @@ Our simulator provides a hands-on approach to learning, allowing you to experime
 
 *   **📊 Comprehensive Algorithm Support:** Visualize and compare a wide range of scheduling algorithms, including:
     *   **First-Come, First-Served (FCFS):** The simplest scheduling algorithm where processes are executed in the order they arrive.
+        <img src="images/fcfs.svg" width="400"/>
     *   **Shortest Job First (SJF):** A non-preemptive algorithm that selects the process with the smallest execution time.
+        <img src="images/sjf.svg" width="400"/>
     *   **Priority Scheduling:** Assign priorities to processes and execute the highest priority process first.
+        <img src="images/priority.svg" width="400"/>
     *   **Round Robin (RR):** A preemptive algorithm that assigns a fixed time slice to each process.
+        <img src="images/rr.svg" width="400"/>
 *   **⚙️ Customizable Process Management:** Take full control of your simulations by adding, removing, and clearing processes with customizable attributes such as:
     *   Process ID
     *   Arrival Time
